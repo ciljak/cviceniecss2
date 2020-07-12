@@ -1,0 +1,125 @@
+/**
+* main styles on page
+*/
+
+body {
+    background-color: #33a5d9 ;
+   
+
+}
+
+section {
+  
+  border-color: grey;
+  border-width: 3px;
+  
+}
+
+/**
+* header styles
+*/
+header img#headerLogo {
+     
+  }
+
+header img#headerSlogan {
+     float: right;
+  } 
+
+  header {
+    background-color: white;
+    margin: 10px 0px 0px 0px;
+    height: 170px;
+    color: #1a1a1a;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    clear: both;
+}
+
+/**
+* nav menu styles 
+*/
+
+nav {
+  background-color: rgb(119, 119, 119); 
+  margin: 10px 10px 0px 10px;
+  padding-top: 3px;
+}
+
+nav ul{
+  margin: 0px;
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+  text-decoration: none;
+}
+
+nav ul li{
+  display: inline;
+  margin: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  background-color: rgb(128, 128, 128);
+  border-bottom: none;
+  font-weight:  bold;
+}
+
+nav ul li.selected {
+  background-color: rgb(31, 31, 31);
+}
+
+/**
+* main content - tyble styling for leftSide, main-content and aside column
+*/
+#tableContainer {
+  display: table;
+     
+}
+#tableRow {
+  display: table-row;
+     
+}
+  section#main-content {
+    display: table-cell;
+    padding: 15px;
+    vertical-align: top;
+    background-color: white;
+    font-size: 105%;
+
+
+  }
+  section#leftSide {
+    display: table-cell;
+    padding: 15px;
+    width: 230px;
+    vertical-align: top;
+    background-color: white;
+    font-size: 105%;
+    margin: 0px 0px 0px 100px;
+
+
+  }
+  aside {
+    display: table-cell;
+    background: white url() bottom right;
+    padding: 15px;
+    width: 230px;
+    vertical-align: top;
+    background-color: white;
+    font-size: 105%;
+    margin: 0px 10px 0px 0px;
+
+
+  }
+
+  #img-aside {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+ } 
+
+  /**
+* footer styles
+*/
