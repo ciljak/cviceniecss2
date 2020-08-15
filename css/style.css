@@ -3,17 +3,12 @@
 */
 
 body {
-    background-color: #33a5d9 ;
+    background-color: #fcb317 ;
    
 
 }
 
-section {
-  
-  border-color: grey;
-  border-width: 3px;
-  
-}
+
 
 /**
 * header styles
@@ -27,7 +22,7 @@ header img#headerSlogan {
   } 
 
   header {
-    background-color: white;
+    background-color: #fcb317;
     margin: 10px 0px 0px 0px;
     height: 170px;
     color: #1a1a1a;
@@ -42,9 +37,11 @@ header img#headerSlogan {
 */
 
 nav {
-  background-color: rgb(119, 119, 119); 
-  margin: 10px 10px 0px 10px;
+  background-color: #3ca6d1; 
+  margin: 17px 0px 0px 0px;
   padding-top: 3px;
+  border: 3px dotted #A4A4A4;
+  
 }
 
 nav ul{
@@ -52,22 +49,45 @@ nav ul{
   list-style-type: none;
   margin: 5px 0px 5px 0px;
   text-decoration: none;
+  
 }
 
 nav ul li{
   display: inline;
   margin: 5px 10px 5px 10px;
+  
 }
 
 nav ul li a:link, nav ul li a:visited {
-  background-color: rgb(128, 128, 128);
+  background-color: #3ca6d1;
+  color: white;
   border-bottom: none;
   font-weight:  bold;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-nav ul li.selected {
-  background-color: rgb(31, 31, 31);
+nav ul li a:hover{
+  background-color: #1a7fa7;
+  color: white;
+  margin: 5px 0px 5px 0px;
+  
+  border-style: dotted;
+  border: 3px;
+  padding: 7px;
+
+  border-color: grey;
+  
+  font-weight:  bold;
+  font-size: 130%;
+  text-decoration: none;
+  text-transform: uppercase;
 }
+
+/* nav ul li.select {
+  background-color: #247291;
+}
+ */
 
 /**
 * main content - tyble styling for leftSide, main-content and aside column
@@ -91,24 +111,26 @@ nav ul li.selected {
   }
   section#leftSide {
     display: table-cell;
-    padding: 15px;
+    padding: 10px;
     width: 230px;
     vertical-align: top;
-    background-color: white;
+    background-color: #f3702a;
     font-size: 105%;
     margin: 0px 0px 0px 100px;
+    
 
 
   }
   aside {
     display: table-cell;
-    background: white url() bottom right;
-    padding: 15px;
+    /* background:  url("./images/sidebar1.png") bottom right; */
+    padding: 10px;
     width: 230px;
     vertical-align: top;
-    background-color: white;
+    background-color: #f3702a;
     font-size: 105%;
     margin: 0px 10px 0px 0px;
+    
 
 
   }
@@ -120,6 +142,83 @@ nav ul li.selected {
   width: 60%;
  } 
 
+ .side-menu {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  
+
+} 
+.side-menu a:link {
+  background-color: #f3702a;
+  color: white;
+  border-bottom: none;
+  font-weight:  bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+} 
+
+ .side-menu  a:visited  {
+  background-color: #f3702a;
+  color: #7d7c7b;
+  border-bottom: none;
+  font-weight:  bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+} 
+
+
+
+.side-menu a:hover  {
+  background-color: #d15918;
+  color: #800b00;
+  margin: 10px 0px 10px 0px;
+  border-style: dotted;
+  /* border-top: 3px; */
+
+  /* border-color: grey; */
+  
+  font-weight:  bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+} 
+
+.side-menu  li {
+  margin: 10px 0px 10px 0px;
+} 
+
   /**
 * footer styles
 */
+
+footer {
+  display: table;
+     
+}
+
+.row {
+  display: table-row;
+     
+}
+
+.column{
+  display: table-cell;
+  padding: 15px;
+  vertical-align: top;
+  background-color: white;
+  font-size: 105%;
+  /* background-color: #f3702a; */
+  margin-left: 5px;
+  border-style: solid 2px;
+  border-color: tomato;
+
+
+}
+
+footer h4  {
+  text-transform: uppercase;
+     
+}
